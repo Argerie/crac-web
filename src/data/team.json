@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rescue",
+    "name": "Equipo de Rescate",
+    "role": "Responden llamadas de emergencia y trasladan animales heridos al centro.",
+    "photoUrl": "https://picsum.photos/seed/rescueteam/500/500",
+    "memberCount": 6
+  },
+  {
+    "id": "vet",
+    "name": "Equipo Veterinario",
+    "role": "Diagnostican, tratan y monitorean la recuperación de cada animal.",
+    "photoUrl": "https://picsum.photos/seed/vetteam/500/500",
+    "memberCount": 4
+  },
+  {
+    "id": "education",
+    "name": "Equipo de Educación",
+    "role": "Guían tours y programas escolares sobre conservación.",
+    "photoUrl": "https://picsum.photos/seed/eduteam/500/500",
+    "memberCount": 3
+  },
+  {
+    "id": "volunteers",
+    "name": "Voluntariado",
+    "role": "Apoyan en alimentación, limpieza y enriquecimiento ambiental.",
+    "photoUrl": "https://picsum.photos/seed/volteam/500/500",
+    "memberCount": 12
+  }
+]

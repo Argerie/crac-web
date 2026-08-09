@@ -1,0 +1,56 @@
+[
+  {
+    "id": "milagro-01",
+    "name": "Milagro",
+    "species": "Perezoso de dos dedos",
+    "rescueDate": "2025-09-14",
+    "status": "rehabilitating",
+    "story": "Rescatado tras caer de un cableado eléctrico cerca de Puerto Viejo. Hoy se recupera en terapia física.",
+    "imageUrl": "https://picsum.photos/seed/sloth1/600/700"
+  },
+  {
+    "id": "tucan-02",
+    "name": "Pico",
+    "species": "Tucán de Swainson",
+    "rescueDate": "2025-06-02",
+    "status": "ready-to-release",
+    "story": "Encontrado con un ala lastimada tras una tormenta. Listo para volver a la selva en pocas semanas.",
+    "imageUrl": "https://picsum.photos/seed/toucan2/600/700"
+  },
+  {
+    "id": "mono-03",
+    "name": "Congo",
+    "species": "Mono aullador",
+    "rescueDate": "2024-11-20",
+    "status": "permanent-resident",
+    "story": "Sufrió una lesión permanente al ser criado como mascota ilegal. Ahora vive protegido en el centro.",
+    "imageUrl": "https://picsum.photos/seed/monkey3/600/700"
+  },
+  {
+    "id": "lapa-04",
+    "name": "Escarlata",
+    "species": "Lapa roja",
+    "rescueDate": "2025-02-11",
+    "status": "rehabilitating",
+    "story": "Decomisada del tráfico ilegal de fauna. En proceso de recuperar su vuelo natural.",
+    "imageUrl": "https://picsum.photos/seed/macaw4/600/700"
+  },
+  {
+    "id": "kinkajou-05",
+    "name": "Luna",
+    "species": "Martilla (Kinkajou)",
+    "rescueDate": "2025-04-30",
+    "status": "ready-to-release",
+    "story": "Huérfana tras la tala de su hábitat. Aprendiendo a forrajear antes de su liberación.",
+    "imageUrl": "https://picsum.photos/seed/kinkajou5/600/700"
+  },
+  {
+    "id": "iguana-06",
+    "name": "Esmeralda",
+    "species": "Iguana verde",
+    "rescueDate": "2024-08-17",
+    "status": "permanent-resident",
+    "story": "Atropellada en carretera, perdió movilidad en una pata. Vive tranquila en el centro.",
+    "imageUrl": "https://picsum.photos/seed/iguana6/600/700"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t1",
+    "name": "Sarah Mitchell",
+    "country": "Estados Unidos",
+    "quote": "Una de las experiencias más genuinas que tuvimos en Costa Rica. Se nota el amor real por los animales.",
+    "photoUrl": "https://picsum.photos/seed/visitor1/200/200"
+  },
+  {
+    "id": "t2",
+    "name": "Laura Jiménez",
+    "country": "Costa Rica",
+    "quote": "Llevé a mis hijos y aprendieron más en una hora aquí que en meses de clase. Volveremos seguro.",
+    "photoUrl": "https://picsum.photos/seed/visitor2/200/200"
+  },
+  {
+    "id": "t3",
+    "name": "Tom Becker",
+    "country": "Alemania",
+    "quote": "El tour explica el proceso de rescate de forma honesta, sin dramatizar. Muy recomendado.",
+    "photoUrl": "https://picsum.photos/seed/visitor3/200/200"
+  }
+]
