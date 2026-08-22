@@ -10,11 +10,19 @@ export default function HeroSection() {
         className="absolute inset-0"
       >
         <img
-          src="https://picsum.photos/seed/heroforest/1600/1000"
-          alt="Costa Rica Animal Rescue Center"
-          className="h-full w-full object-cover"
+          src="/images/hero/perezoso-principal.jpeg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 h-full w-full scale-110 object-cover opacity-70 blur-2xl"
         />
-        <div className="absolute inset-0 bg-jungle-900/50" />
+        <div className="relative flex h-full items-center justify-center">
+          <img
+            src="/images/hero/perezoso-principal.jpeg"
+            alt="Perezoso rescatado en el Costa Rica Animal Rescue Center"
+            className="h-full bg-jungle-900 object-contain shadow-2xl"
+          />
+        </div>
+        <div className="absolute inset-0 bg-jungle-900/30" />
       </motion.div>
 
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center text-mist-50">

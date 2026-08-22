@@ -7,7 +7,7 @@ export default function AnimalProfiles() {
   return (
     <section id="Amigos" className="bg-river-200 px-6 py-24">
       <h2 className="text-center font-display text-3xl text-jungle-900 md:text-4xl">
-        Nuestros amigos
+        Animales rescatados
       </h2>
       <p className="mx-auto mt-2 max-w-xl text-center font-body text-jungle-900/60">
         Pasa el cursor sobre cada tarjeta para conocer su historia.
