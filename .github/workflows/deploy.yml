@@ -1,11 +1,9 @@
-git add .
-git commit -m "Configure GitHub Pages"
-git push
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 permissions:
   contents: read
