@@ -20,6 +20,12 @@ body {
   background: #ffffff;
   color: var(--color-jungle-900);
   font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 @keyframes marquee {

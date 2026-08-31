@@ -5,18 +5,21 @@ export default function HabitacionSection() {
   const { t } = useTranslation();
   const cards = [
     {
+      id: 'compartida',
       title: t('habitacion.compartidaTitle'),
       price: t('habitacion.compartidaPrice'),
       highlight: t('habitacion.compartidaHighlight'),
       description: t('habitacion.compartidaDesc'),
     },
     {
+      id: 'privada',
       title: t('habitacion.privadaTitle'),
       price: t('habitacion.privadaPrice'),
       highlight: t('habitacion.privadaHighlight'),
       description: t('habitacion.privadaDesc'),
     },
     {
+      id: 'familiar',
       title: t('habitacion.familiarTitle'),
       price: t('habitacion.familiarPrice'),
       highlight: t('habitacion.familiarHighlight'),
@@ -49,6 +52,34 @@ export default function HabitacionSection() {
             <p className="mt-3 min-h-[3.5rem] text-center font-body text-sm text-jungle-900/70">
               {card.description}
             </p>
+            {card.id === 'compartida' && (
+              <div className="mt-6 flex gap-3">
+                <img
+                  src="/crac-web/images/hostel.jpeg"
+                  alt="Habitación compartida"
+                  className="h-28 flex-1 rounded-lg object-cover"
+                />
+                <img
+                  src="/crac-web/images/host.jpeg"
+                  alt="Habitación compartida"
+                  className="h-28 flex-1 rounded-lg object-cover"
+                />
+              </div>
+            )}
+            {card.id === 'privada' && (
+              <div className="mt-6 flex gap-3">
+                <img
+                  src="/crac-web/images/sola.jpeg"
+                  alt="Habitación privada"
+                  className="h-28 flex-1 rounded-lg object-cover"
+                />
+                <img
+                  src="/crac-web/images/solab.jpeg"
+                  alt="Habitación privada"
+                  className="h-28 flex-1 rounded-lg object-cover"
+                />
+              </div>
+            )}
             <div className="mt-auto pt-8 flex justify-center">
               <a
                 href="#Visitanos"
