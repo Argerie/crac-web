@@ -5,7 +5,7 @@ import type { Animal } from '../../types';
 
 export default function AnimalProfiles() {
   return (
-    <section id="Amigos" className="bg-river-200 px-6 py-24">
+    <section id="Amigos" className="bg-mist-50 px-6 py-24">
       <h2 className="text-center font-display text-3xl text-jungle-900 md:text-4xl">
         Animales rescatados
       </h2>

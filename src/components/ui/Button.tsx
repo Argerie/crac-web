@@ -11,7 +11,7 @@ interface ButtonProps {
 export default function Button({ children, variant = 'primary', onClick, pulse }: ButtonProps) {
   const styles =
     variant === 'primary'
-      ? 'bg-toucan-400 text-mist-50 hover:shadow-lg'
+      ? 'bg-sloth-500 text-mist-50 hover:shadow-lg'
       : 'bg-transparent border-2 border-mist-50 text-mist-50 hover:bg-mist-50/10';
 
   return (

@@ -11,7 +11,7 @@ export default function FieldLogCard({ animal }: { animal: Animal }) {
     <div className="group relative h-96 [perspective:1000px]">
       <div className="relative h-full w-full transition-transform duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
         <div
-          className="absolute inset-0 rounded-xl bg-mist-50 shadow-md overflow-hidden [backface-visibility:hidden]"
+          className="absolute inset-0 rounded-xl bg-white shadow-md overflow-hidden [backface-visibility:hidden]"
         >
           <img src={animal.imageUrl} alt={animal.name} className="h-2/3 w-full object-cover" />
           <div className="p-4">
@@ -20,7 +20,7 @@ export default function FieldLogCard({ animal }: { animal: Animal }) {
             </span>
             <h3 className="mt-2 font-display text-2xl text-jungle-900">{animal.name}</h3>
             <p className="font-utility text-xs text-jungle-900/60">
-              {animal.species} · {animal.rescueDate}
+              {animal.species}
             </p>
           </div>
         </div>

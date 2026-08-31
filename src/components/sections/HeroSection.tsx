@@ -10,19 +10,11 @@ export default function HeroSection() {
         className="absolute inset-0"
       >
         <img
-          src="/images/hero/perezoso-principal.jpeg"
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 h-full w-full scale-110 object-cover opacity-70 blur-2xl"
+          src="/images/hero/perez-hero.png"
+          alt="Perezoso rescatado en el Costa Rica Animal Rescue Center"
+          className="h-full w-full object-cover"
         />
-        <div className="relative flex h-full items-center justify-center">
-          <img
-            src="/images/hero/perezoso-principal.jpeg"
-            alt="Perezoso rescatado en el Costa Rica Animal Rescue Center"
-            className="h-full bg-jungle-900 object-contain shadow-2xl"
-          />
-        </div>
-        <div className="absolute inset-0 bg-jungle-900/30" />
+        <div className="absolute inset-0 bg-jungle-900/20" />
       </motion.div>
 
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center text-mist-50">
@@ -32,7 +24,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="font-display text-5xl font-bold md:text-7xl"
         >
-          Rescatamos vida silvestre
+          Costa Rica Animal Rescue Center
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -40,7 +32,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="mt-4 font-body text-lg text-mist-50/90 md:text-xl"
         >
-          Visítanos en Costa Rica y conoce a los animales que hemos rescatado.
+          Ayúdanos a rescatar, proteger y conservar la vida silvestre.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -48,21 +40,18 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="mt-8 flex flex-wrap justify-center gap-4"
         >
-          <motion.button
-            initial={{ scale: 1 }}
-            animate={{ scale: [1, 1.05, 1] }}
-            transition={{ duration: 1.2, delay: 1.5, repeat: 1 }}
-            whileHover={{ scale: 1.05 }}
-            className="rounded-full bg-toucan-400 px-7 py-3 font-body font-medium text-mist-50 shadow-lg"
+          <a
+            href="#Voluntarios"
+            className="rounded-full bg-sloth-500 px-7 py-3 text-center font-body font-medium text-mist-50 shadow-lg"
+          >
+            Voluntariados
+          </a>
+          <a
+            href="#Visitanos"
+            className="rounded-full border-2 border-mist-50 px-7 py-3 text-center font-body font-medium text-mist-50"
           >
             Visítanos
-          </motion.button>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            className="rounded-full border-2 border-mist-50 px-7 py-3 font-body font-medium text-mist-50"
-          >
-            Dona ahora
-          </motion.button>
+          </a>
         </motion.div>
       </div>
     </section>

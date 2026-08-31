@@ -1,56 +1,56 @@
 [
   {
     "id": "milagro-01",
-    "name": "Milagro",
-    "species": "Perezoso de dos dedos",
+    "name": "Grumpy",
+    "species": "Perezoso",
     "rescueDate": "2025-09-14",
     "status": "rehabilitating",
-    "story": "Rescatado tras caer de un cableado eléctrico cerca de Puerto Viejo. Hoy se recupera en terapia física.",
-    "imageUrl": "/images/animals/milagro.jpeg"
+    "story": "Grumpy vino con la placenta aún enrollada en su cuerpo, vos podés ayudarnos a rehabilitarlo en el hospital.",
+    "imageUrl": "/images/animals/grumpybebe.jpeg"
   },
   {
     "id": "tucan-02",
-    "name": "Pico",
-    "species": "Tucán de Swainson",
+    "name": "Sharleen",
+    "species": "Mono congo",
     "rescueDate": "2025-06-02",
     "status": "ready-to-release",
-    "story": "Encontrado con un ala lastimada tras una tormenta. Listo para volver a la selva en pocas semanas.",
-    "imageUrl": "https://picsum.photos/seed/toucan2/600/700"
+    "story": "Sharleen fue rescatada de la trata ilegal de animales.",
+    "imageUrl": "/images/animals/eyes.jpeg"
   },
   {
     "id": "mono-03",
-    "name": "Congo",
-    "species": "Mono aullador",
+    "name": "Lola",
+    "species": "Mono cariblanco",
     "rescueDate": "2024-11-20",
     "status": "permanent-resident",
-    "story": "Sufrió una lesión permanente al ser criado como mascota ilegal. Ahora vive protegido en el centro.",
-    "imageUrl": "https://picsum.photos/seed/monkey3/600/700"
+    "story": "Lola sufrió maltrato físico y en el centro curamos sus heridas",
+    "imageUrl": "/images/animals/lola.jpeg"
   },
   {
     "id": "lapa-04",
-    "name": "Escarlata",
-    "species": "Lapa roja",
+    "name": "Gandy",
+    "species": "Mono araña",
     "rescueDate": "2025-02-11",
     "status": "rehabilitating",
-    "story": "Decomisada del tráfico ilegal de fauna. En proceso de recuperar su vuelo natural.",
-    "imageUrl": "https://picsum.photos/seed/macaw4/600/700"
+    "story": "Le suministraban drogas para usarlo como diversión, hoy es el líder de la manada",
+    "imageUrl": "/images/animals/ghandy.jpeg"
   },
   {
     "id": "kinkajou-05",
-    "name": "Luna",
-    "species": "Martilla (Kinkajou)",
+    "name": "Diniel",
+    "species": "Kinkajú",
     "rescueDate": "2025-04-30",
     "status": "ready-to-release",
-    "story": "Huérfana tras la tala de su hábitat. Aprendiendo a forrajear antes de su liberación.",
-    "imageUrl": "https://picsum.photos/seed/kinkajou5/600/700"
+    "story": "Huérfano tras destrucción de su hábitat, rescatado desde bebé.",
+    "imageUrl": "/images/animals/daniel.jpeg"
   },
   {
     "id": "iguana-06",
-    "name": "Esmeralda",
-    "species": "Iguana verde",
+    "name": "Toro",
+    "species": "Venado",
     "rescueDate": "2024-08-17",
     "status": "permanent-resident",
-    "story": "Atropellada en carretera, perdió movilidad en una pata. Vive tranquila en el centro.",
-    "imageUrl": "https://picsum.photos/seed/iguana6/600/700"
+    "story": "Decomisado por las autoridades después de que lo habían sacado de la naturaleza.",
+    "imageUrl": "/images/animals/toro.jpeg"
   }
 ]

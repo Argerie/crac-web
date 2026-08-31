@@ -5,18 +5,32 @@ export default function VolunteerFormSection() {
       <p className="mt-2 font-body text-sm text-jungle-900/60">
         Cuéntanos qué te interesa y te contactamos.
       </p>
-      <form className="mt-6 flex flex-col gap-4">
+      <form
+        action="https://formsubmit.co/volunteering@costaricaanimalrescuecenter.org"
+        method="POST"
+        className="mt-6 flex flex-col gap-4"
+      >
+        <input type="hidden" name="_subject" value="Nuevo contacto desde la web CRARC" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
         <input
           type="text"
+          name="nombre"
+          required
           placeholder="Nombre"
           className="rounded-lg border border-jungle-900/20 px-4 py-3 font-body text-sm"
         />
         <input
           type="email"
+          name="email"
+          required
           placeholder="Email"
           className="rounded-lg border border-jungle-900/20 px-4 py-3 font-body text-sm"
         />
-        <select className="rounded-lg border border-jungle-900/20 px-4 py-3 font-body text-sm">
+        <select
+          name="interes"
+          className="rounded-lg border border-jungle-900/20 px-4 py-3 font-body text-sm"
+        >
           <option>Quiero visitar</option>
           <option>Quiero ser voluntario</option>
           <option>Quiero donar</option>
