@@ -139,7 +139,7 @@ export default function QuienesSomosSection() {
       </div>
       <div className="mx-auto mt-12 max-w-4xl">
         <video
-          src="/videos/needus.mp4"
+          src="/crac-web/videos/needus.mp4"
           controls
           autoPlay
           muted
