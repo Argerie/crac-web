@@ -1,19 +1,30 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import animals from '../../data/animals.json';
 import FieldLogCard from '../ui/FieldLogCard';
 import type { Animal } from '../../types';
 
 export default function AnimalProfiles() {
+  const { t } = useTranslation();
+
+  const translated = (animals as Animal[]).map((animal) => ({
+    ...animal,
+    name: t(`animals.${animal.id}.name`),
+    species: t(`animals.${animal.id}.species`),
+    story: t(`animals.${animal.id}.story`),
+    status: t(`animals.status.${animal.status}`) as Animal['status'],
+  }));
+
   return (
     <section id="Amigos" className="bg-mist-50 px-6 py-24">
       <h2 className="text-center font-display text-3xl text-jungle-900 md:text-4xl">
-        Animales rescatados
+        {t('animals.title')}
       </h2>
       <p className="mx-auto mt-2 max-w-xl text-center font-body text-jungle-900/60">
-        Pasa el cursor sobre cada tarjeta para conocer su historia.
+        {t('animals.subtitle')}
       </p>
       <div className="mx-auto mt-12 grid max-w-7xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {(animals as Animal[]).map((animal, i) => (
+        {translated.map((animal, i) => (
           <motion.div
             key={animal.id}
             initial={{ opacity: 0, y: 24 }}

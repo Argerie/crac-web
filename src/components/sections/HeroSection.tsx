@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function HeroSection() {
+  const { t } = useTranslation();
   return (
     <section className="relative flex h-screen items-center justify-center overflow-hidden">
       <motion.div
@@ -11,7 +13,7 @@ export default function HeroSection() {
       >
         <img
           src="/crac-web/images/hero/perez-hero.png"
-          alt="Perezoso rescatado en el Costa Rica Animal Rescue Center"
+          alt={t('hero.heroImageAlt')}
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-jungle-900/20" />
@@ -24,7 +26,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="font-display text-5xl font-bold md:text-7xl"
         >
-          Costa Rica Animal Rescue Center
+          {t('hero.title')}
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -32,7 +34,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="mt-4 font-body text-lg text-mist-50/90 md:text-xl"
         >
-          Ayúdanos a rescatar, proteger y conservar la vida silvestre.
+          {t('hero.subtitle')}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -44,13 +46,13 @@ export default function HeroSection() {
             href="#Voluntarios"
             className="rounded-full bg-sloth-500 px-7 py-3 text-center font-body font-medium text-mist-50 shadow-lg"
           >
-            Voluntariados
+            {t('hero.voluntariados')}
           </a>
           <a
             href="#Visitanos"
             className="rounded-full border-2 border-mist-50 px-7 py-3 text-center font-body font-medium text-mist-50"
           >
-            Visítanos
+            {t('hero.visitanos')}
           </a>
         </motion.div>
       </div>

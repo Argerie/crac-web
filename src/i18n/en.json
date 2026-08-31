@@ -1,0 +1,204 @@
+{
+  "nav": {
+    "quienesSomos": "About us",
+    "voluntariado": "Volunteering",
+    "hospital": "Hospital",
+    "giras": "Educational tours",
+    "visitanos": "Visit us",
+    "dona": "Donate",
+    "esEn": "ES / EN"
+  },
+  "hero": {
+    "title": "Costa Rica Animal Rescue Center",
+    "subtitle": "Help us rescue, protect and conserve wildlife.",
+    "voluntariados": "Volunteering",
+    "visitanos": "Visit us",
+    "heroImageAlt": "Rescued sloth at the Costa Rica Animal Rescue Center"
+  },
+  "teamCards": {
+    "quienesTitle": "About us",
+    "quienesDesc": "Learn the story of the wildlife rescue center, our mission, purpose and how you can be part of this story.",
+    "voluntariadosTitle": "Volunteering",
+    "voluntariadosDesc": "Our volunteers live the experience of caring for rescued animals and have unforgettable adventures.",
+    "hospitalTitle": "Hospital",
+    "hospitalDesc": "Be part of our veterinary medical team: rescue and learn.",
+    "visitanosTitle": "Visit us",
+    "visitanosDesc": "Meet the rescued animals on a guided tour of the sanctuary.",
+    "girasTitle": "Educational tours",
+    "girasDesc": "Tours designed for schools and groups to learn about conservation.",
+    "cta": "Learn more →"
+  },
+  "quienes": {
+    "titulo": "About us",
+    "p1": "We are a wildlife rescue center and a sanctuary for animals rescued from the illegal species trade, from accidents caused by humans, and from abuse victims.",
+    "p2": "We have a fully equipped veterinary clinic to receive animals in danger, with serious injuries or at risk of death.",
+    "p3": "We also have a sanctuary where animals that could not be returned to the wild live, either because they were taken from their natural habitat just weeks after birth, because they require ongoing veterinary care, or because their injuries no longer allow them to survive in the wild.",
+    "p4": "At the rescue you will find species such as the two-toed sloth",
+    "p4Sci": "(Choloepus hoffmanni)",
+    "p4b": "being one of the most rescued species due to illegal trafficking and accidents on power lines.",
+    "p5a": "You will also meet the white-faced capuchin monkey",
+    "p5aSci": "(Cebus capucinus)",
+    "p5b": ", Central American spider monkey",
+    "p5bSci": "(Ateles geoffroyi)",
+    "p5c": ", mantled howler monkey",
+    "p5cSci": "(Alouatta palliata)",
+    "p5d": ", agoutis, marmosets, raccoons",
+    "p5dSci": "(Procyon lotor)",
+    "p5e": ", kinkajou",
+    "p5eSci": "(Potos flavus)",
+    "p5f": ", collared peccaries",
+    "p5fSci": "(Pecari tajacu)",
+    "p5g": ", white-tailed deer",
+    "p5gSci": "(Odocoileus virginianus)",
+    "p5end": ".",
+    "p6a": "A diversity of birds such as the scarlet macaw",
+    "p6aSci": "(Ara macao)",
+    "p6b": ", blue-and-yellow macaw",
+    "p6bSci": "(Ara ararauna)",
+    "p6c": ", green conure",
+    "p6cSci": "(Aratinga holochlora)",
+    "p6d": ", budgerigars",
+    "p6dSci": "(Melopsittacus undulatus)",
+    "p6e": ", spectacled owl",
+    "p6eSci": "(Pulsatrix perspicillata)",
+    "p6end": ", among many other species.",
+    "historiaTitle": "Our story",
+    "historiaP1": "In 2009, the rescue center was founded on the Caribbean coast of Costa Rica, in Moín. Its first rescue was Buda, an animal saved from the illegal wildlife trade just before being sold as a pet.",
+    "historiaP2": "The center, located in Moín, also patrolled the beaches to protect the nests of an endangered species: the leatherback sea turtle",
+    "historiaP2Sci": "(Dermochelys coriacea)",
+    "historiaP2end": ".",
+    "historiaP3": "However, illegal egg collectors were not the only challenge. The construction of a major port in Moín threatened the rescue and conservation activities. As an act of intimidation, environmental activist Jairo Mora Sandoval was murdered while defending the sea turtle nests.",
+    "historiaP4": "Due to growing pressure and the loss of access to the original property, the center was forced to relocate to San Miguel de Turrúcares. There, a temporary property was generously lent so the animals could be housed while a permanent solution was sought.",
+    "historiaP5": "The original property in Moín was occupied and, in 2016, after selling two personal properties, the rescue center's owner was able to acquire the land where the center now operates, a property that is still being paid for, which is why we look for volunteers like you to be part of the care and protection of our wildlife."
+  },
+  "animals": {
+    "title": "Rescued animals",
+    "subtitle": "Hover over each card to learn its story.",
+    "grumpy": {
+      "name": "Grumpy",
+      "species": "Sloth",
+      "story": "Grumpy arrived with the placenta still wrapped around his body; you can help us rehabilitate him at the hospital."
+    },
+    "sharleen": {
+      "name": "Sharleen",
+      "species": "Howler monkey",
+      "story": "Sharleen was rescued from the illegal animal trade."
+    },
+    "lola": {
+      "name": "Lola",
+      "species": "White-faced capuchin",
+      "story": "Lola suffered physical abuse and at the center we healed her wounds"
+    },
+    "gandy": {
+      "name": "Gandy",
+      "species": "Spider monkey",
+      "story": "He was given drugs to be used as entertainment, today he is the leader of the troop"
+    },
+    "diniel": {
+      "name": "Diniel",
+      "species": "Kinkajou",
+      "story": "Orphaned after the destruction of his habitat, rescued as a baby."
+    },
+    "toro": {
+      "name": "Toro",
+      "species": "Deer",
+      "story": "Confiscated by the authorities after being taken from the wild."
+    },
+    "status": {
+      "rehabilitating": "In rehabilitation",
+      "ready-to-release": "Ready to release",
+      "permanent-resident": "Permanent resident"
+    }
+  },
+  "volunteers": {
+    "title": "Volunteering",
+    "imgAlt": "Volunteers at the Costa Rica Animal Rescue Center",
+    "p1": "Our volunteers are people who have decided to donate an important part of their time and dedication to our cause, which is why we have created a safe, fun space that ensures coexistence and cultural exchange.",
+    "p2": "All our programs include meals and lodging. We have the necessary infrastructure for you to choose what is best for your well-being and comfort, which also guarantees you have space to practice the activities you enjoy most, such as yoga, reading, and exploring nature. What else can you imagine doing?",
+    "p3": "The experience includes getting to know the town and the chance to take part in the activities we have planned for you while we wait for you: bonfires, karaoke, tours and much more."
+  },
+  "gallery": {
+    "title": "Life at the center",
+    "img1": "Activities with volunteers",
+    "img2": "Preparing food for the animals",
+    "img3": "Volunteers at the center",
+    "img4": "Veterinary hospital of the center",
+    "img5": "Volcano of Costa Rica",
+    "img6": "Care at the veterinary hospital",
+    "img7": "Volunteering in action"
+  },
+  "habitacion": {
+    "compartidaTitle": "Shared room",
+    "compartidaPrice": "$50 / night",
+    "compartidaHighlight": "Share a room with people of similar interests and make connections.",
+    "compartidaDesc": "Enjoy shared lodging with three meals a day, daily room cleaning and unforgettable activities.",
+    "privadaTitle": "Private room",
+    "privadaPrice": "$70 / night",
+    "privadaHighlight": "Keep your privacy in a room with a private bathroom.",
+    "privadaDesc": "Enjoy private lodging with three meals a day, daily room cleaning and unforgettable activities.",
+    "familiarTitle": "Family room",
+    "familiarPrice": "$160 / night",
+    "familiarHighlight": "Stay with your family.",
+    "familiarDesc": "Enjoy lodging with your family with three meals a day, daily room cleaning and unforgettable activities.",
+    "comenzar": "Start"
+  },
+  "visitanos": {
+    "title": "Visit us",
+    "p1": "Come see the sanctuary and the rescued animals that are permanent residents of the center. You can come with the whole family; our opening hours are Monday to Sunday from 8:00 am to 4:00 pm.",
+    "p2": "We are located in Cebadilla de Turrúcares, in the province of Alajuela. The tour lasts about an hour and you will always have a trained guide at the rescue.",
+    "imgAlt": "Sloth at the sanctuary"
+  },
+  "giras": {
+    "title": "Educational tours",
+    "p1": "Tours designed for schools, colleges and groups. Learn about wildlife conservation and the work of the rescue center.",
+    "p2": "An experience that combines environmental education, contact with nature and moments that last forever.",
+    "imgAlt": "Educational tour in nature"
+  },
+  "form": {
+    "title": "Visit us or volunteer",
+    "subtitle": "Tell us what interests you and we will contact you.",
+    "subject": "New contact from the CRARC website",
+    "nombre": "Name",
+    "email": "Email",
+    "visitar": "I want to visit",
+    "voluntario": "I want to volunteer",
+    "donar": "I want to donate",
+    "enviar": "Send"
+  },
+  "donation": {
+    "title": "Donate now",
+    "subtitle": "Your donation directly helps care for the rescued animals.",
+    "donar": "Donate"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "q1": "What are the visiting hours?",
+    "a1": "We are open every day from 8:00 am to 4:00 pm, including holidays.",
+    "q2": "How do we get to the center?",
+    "a2": "Search for Costa Rica Animal Rescue Center, in Cebadilla de Turrúcares.",
+    "q3": "How much is the entrance fee?",
+    "a3": "Nationals: adults ₡6000, children ₡4000. Foreigners: adults $20, children $10.",
+    "q4": "Is it suitable for children?",
+    "a4": "Yes, we have guided tours designed for families and school groups."
+  },
+  "footer": {
+    "name": "CRARC",
+    "org": "Costa Rica Animal Rescue Center · Cebadilla, Turrúcares",
+    "horario": "Mon–Sun · 8:00 - 16:00",
+    "email": "volunteering@costaricaanimalrescuecenter.org",
+    "phone": "+506 85228125",
+    "siguenos": "Follow us",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "copyright": "© 2026 Costa Rica Animal Rescue Center"
+  },
+  "mission": {
+    "img1": "Howler monkey baby",
+    "img2": "Baby sloth wrapped up",
+    "img3": "Sloth with eyes closed",
+    "img4": "Sloth at the rescue center",
+    "img5": "Sloths kissing",
+    "img6": "Rescued toucan",
+    "img7": "Rescued baby fox"
+  }
+}

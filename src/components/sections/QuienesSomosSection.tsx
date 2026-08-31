@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function QuienesSomosSection() {
+  const { t } = useTranslation();
   return (
     <section id="QuienesSomos" className="bg-mist-50 px-6 py-24">
       <div className="mx-auto max-w-7xl">
@@ -11,129 +13,109 @@ export default function QuienesSomosSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="font-display text-3xl text-jungle-900 md:text-4xl">
-            Quiénes somos
+            {t('quienes.titulo')}
           </h2>
 
           <p className="mt-4 font-body text-jungle-900/70">
-            Somos un centro de rescate de vida silvestre y un santuario de animales rescatados
-            del tráfico ilegal de especies, de accidentes causados por el ser humano y de
-            quienes han sido víctimas de abuso.
+            {t('quienes.p1')}
           </p>
 
           <p className="mt-3 font-body text-jungle-900/70">
-            Contamos con una clínica veterinaria equipada para recibir a los animales en
-            peligro, con heridas graves o con riesgo de muerte.
+            {t('quienes.p2')}
           </p>
 
           <p className="mt-3 font-body text-jungle-900/70">
-            Además, un santuario donde viven los animales que no pudieron ser reintegrados a
-            la naturaleza, dado a que fueron sacados de su hábitat natural con apenas semanas
-            de vida, porque requieren de un chequeo veterinario continuo, o sus heridas ya no
-            permiten que sobreviva en la naturaleza.
+            {t('quienes.p3')}
           </p>
 
           <p className="mt-3 font-body text-jungle-900/70">
-            En el rescate viven especies como el perezoso de dos dedos{' '}
+            {t('quienes.p4')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Choloepus hoffmanni)
+              {t('quienes.p4Sci')}
             </span>{' '}
-            siendo una de las especies más rescatadas dado al tráfico ilegal y los accidentes
-            en tendidos eléctricos.
+            {t('quienes.p4b')}
           </p>
 
           <p className="mt-3 font-body text-jungle-900/70">
-            Conocerás también al mono cariblanco{' '}
+            {t('quienes.p5a')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Cebus capucinus)
+              {t('quienes.p5aSci')}
             </span>
-            , mono araña centroamericano{' '}
+            {t('quienes.p5b')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Ateles geoffroyi)
+              {t('quienes.p5bSci')}
             </span>
-            , mono congo{' '}
+            {t('quienes.p5c')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Alouatta palliata)
+              {t('quienes.p5cSci')}
             </span>
-            , guatusas, marmosetas, mapaches{' '}
+            {t('quienes.p5d')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Procyon lotor)
+              {t('quienes.p5dSci')}
             </span>
-            , kinkajú{' '}
+            {t('quienes.p5e')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Potos flavus)
+              {t('quienes.p5eSci')}
             </span>
-            , saínos{' '}
+            {t('quienes.p5f')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Pecari tajacu)
+              {t('quienes.p5fSci')}
             </span>
-            , venados coliblanco{' '}
+            {t('quienes.p5g')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Odocoileus virginianus)
+              {t('quienes.p5gSci')}
             </span>
-            .
+            {t('quienes.p5end')}
           </p>
 
           <p className="mt-3 font-body text-jungle-900/70">
-            Diversidad de aves como la lapa roja{' '}
+            {t('quienes.p6a')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Ara macao)
+              {t('quienes.p6aSci')}
             </span>
-            , lapa azul{' '}
+            {t('quienes.p6b')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Ara ararauna)
+              {t('quienes.p6bSci')}
             </span>
-            , perico verde{' '}
+            {t('quienes.p6c')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Aratinga holochlora)
+              {t('quienes.p6cSci')}
             </span>
-            , periquitos{' '}
+            {t('quienes.p6d')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Melopsittacus undulatus)
+              {t('quienes.p6dSci')}
             </span>
-            , búho oropopo{' '}
+            {t('quienes.p6e')}{' '}
             <span className="font-utility text-xs italic text-jungle-900/50">
-              (Pulsatrix perspicillata)
+              {t('quienes.p6eSci')}
             </span>
-            , entre muchas otras especies.
+            {t('quienes.p6end')}
           </p>
 
-          <h3 className="mt-8 font-display text-2xl text-jungle-900">Nuestra historia</h3>
+          <h3 className="mt-8 font-display text-2xl text-jungle-900">{t('quienes.historiaTitle')}</h3>
 
           <p className="mt-3 font-body text-jungle-900/70">
-            En 2009, el centro de rescate fue fundado en la costa caribeña de Costa Rica, en
-            Moín. Su primer rescate fue Buda, un animal salvado del tráfico ilegal de fauna
-            silvestre justo antes de ser vendido como mascota.
-          </p>
-
-          <p className="mt-3 font-body text-jungle-900/70">
-            El centro, ubicado en Moín, también se dedicaba a patrullar las playas para
-            proteger los nidos de una especie en peligro de extinción: la tortuga baula{' '}
-            <span className="font-utility text-xs italic text-jungle-900/50">
-              (Dermochelys coriacea)
-            </span>
-            .
+            {t('quienes.historiaP1')}
           </p>
 
           <p className="mt-3 font-body text-jungle-900/70">
-            Sin embargo, los recolectores ilegales de huevos no eran el único desafío. La
-            construcción de un importante puerto en Moín amenazaba las actividades de rescate
-            y conservación. Como acto de intimidación, el activista ambiental Jairo Mora
-            Sandoval fue asesinado mientras defendía los nidos de las tortugas marinas.
+            {t('quienes.historiaP2')}{' '}
+            <span className="font-utility text-xs italic text-jungle-900/50">
+              {t('quienes.historiaP2Sci')}
+            </span>{' '}
+            {t('quienes.historiaP2end')}
           </p>
 
           <p className="mt-3 font-body text-jungle-900/70">
-            Debido a la creciente presión y a la pérdida de acceso a la propiedad original, el
-            centro se vio obligado a trasladarse a San Miguel de Turrúcares. Allí, se les
-            prestó generosamente una propiedad temporal para que los animales pudieran ser
-            alojados mientras se buscaba una solución permanente.
+            {t('quienes.historiaP3')}
           </p>
 
           <p className="mt-3 font-body text-jungle-900/70">
-            La propiedad original en Moín fue ocupada y, en 2016, después de vender dos
-            propiedades personales, el propietario del centro de rescate pudo adquirir el
-            terreno donde actualmente funciona el centro, una propiedad que todavía se está
-            pagando por lo que buscamos personas voluntarias como vos, para que formés parte
-            del cuidado y protección de nuestra vida silvestre.
+            {t('quienes.historiaP4')}
+          </p>
+
+          <p className="mt-3 font-body text-jungle-900/70">
+            {t('quienes.historiaP5')}
           </p>
         </motion.div>
       </div>

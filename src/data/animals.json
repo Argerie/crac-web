@@ -1,6 +1,6 @@
 [
   {
-    "id": "milagro-01",
+    "id": "grumpy",
     "name": "Grumpy",
     "species": "Perezoso",
     "rescueDate": "2025-09-14",
@@ -9,7 +9,7 @@
     "imageUrl": "/crac-web/images/animals/grumpybebe.jpeg"
   },
   {
-    "id": "tucan-02",
+    "id": "sharleen",
     "name": "Sharleen",
     "species": "Mono congo",
     "rescueDate": "2025-06-02",
@@ -18,7 +18,7 @@
     "imageUrl": "/crac-web/images/animals/eyes.jpeg"
   },
   {
-    "id": "mono-03",
+    "id": "lola",
     "name": "Lola",
     "species": "Mono cariblanco",
     "rescueDate": "2024-11-20",
@@ -27,7 +27,7 @@
     "imageUrl": "/crac-web/images/animals/lola.jpeg"
   },
   {
-    "id": "lapa-04",
+    "id": "gandy",
     "name": "Gandy",
     "species": "Mono araña",
     "rescueDate": "2025-02-11",
@@ -36,7 +36,7 @@
     "imageUrl": "/crac-web/images/animals/ghandy.jpeg"
   },
   {
-    "id": "kinkajou-05",
+    "id": "diniel",
     "name": "Diniel",
     "species": "Kinkajú",
     "rescueDate": "2025-04-30",
@@ -45,7 +45,7 @@
     "imageUrl": "/crac-web/images/animals/daniel.jpeg"
   },
   {
-    "id": "iguana-06",
+    "id": "toro",
     "name": "Toro",
     "species": "Venado",
     "rescueDate": "2024-08-17",
@@ -54,4 +54,3 @@
     "imageUrl": "/crac-web/images/animals/toro.jpeg"
   }
 ]
-

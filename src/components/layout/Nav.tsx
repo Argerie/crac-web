@@ -1,15 +1,22 @@
 import { useState } from 'react';
-
-const links = [
-  { label: 'Quiénes somos', href: '#QuienesSomos' },
-  { label: 'Voluntariado', href: '#Voluntarios' },
-  { label: 'Hospital', href: '#Voluntarios' },
-  { label: 'Giras educativas', href: '#Giras' },
-  { label: 'Visítanos', href: '#Visitanos' },
-];
+import { useTranslation } from 'react-i18next';
 
 export default function Nav() {
+  const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
+
+  const links = [
+    { label: t('nav.quienesSomos'), href: '#QuienesSomos' },
+    { label: t('nav.voluntariado'), href: '#Voluntarios' },
+    { label: t('nav.hospital'), href: '#Voluntarios' },
+    { label: t('nav.giras'), href: '#Giras' },
+    { label: t('nav.visitanos'), href: '#Visitanos' },
+  ];
+
+  const changeLang = (lang: string) => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem('lang', lang);
+  };
 
   return (
     <>
@@ -65,12 +72,32 @@ export default function Nav() {
                 {item.label}
               </a>
             ))}
-            <div className="flex items-center gap-6 py-5">
+            <div className="flex items-center gap-3 py-5">
               <button
-                onClick={() => setOpen(false)}
-                className="font-utility text-sm text-mist-50"
+                onClick={() => {
+                  setOpen(false);
+                  changeLang('es');
+                }}
+                className={`rounded-full px-4 py-1.5 font-utility text-sm transition-colors ${
+                  i18n.language === 'es'
+                    ? 'bg-mist-50 text-jungle-900'
+                    : 'text-mist-50 hover:text-jungle-900'
+                }`}
               >
-                ES / EN
+                ES
+              </button>
+              <button
+                onClick={() => {
+                  setOpen(false);
+                  changeLang('en');
+                }}
+                className={`rounded-full px-4 py-1.5 font-utility text-sm transition-colors ${
+                  i18n.language === 'en'
+                    ? 'bg-mist-50 text-jungle-900'
+                    : 'text-mist-50 hover:text-jungle-900'
+                }`}
+              >
+                EN
               </button>
               <button
                 onClick={() => {
@@ -79,7 +106,7 @@ export default function Nav() {
                 }}
                 className="rounded-full bg-sloth-500 px-6 py-2.5 font-body text-sm font-medium text-mist-50 ring-2 ring-mist-50/70 transition-transform hover:scale-105"
               >
-                Dona
+                {t('nav.dona')}
               </button>
             </div>
           </div>

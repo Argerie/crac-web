@@ -1,42 +1,42 @@
 import { motion } from 'framer-motion';
-
-const sections = [
-  {
-    title: 'Quiénes somos',
-    description:
-      'Conoce la historia del centro de rescate de vida silvestre, nuestra misión, propósito y cómo puedes formar parte de esta historia.',
-    href: '#QuienesSomos',
-    imageUrl: '/crac-web/images/quienes.jpeg',
-  },
-  {
-    title: 'Voluntariados',
-    description:
-      'Nuestras personas voluntarias viven la experiencia de cuidar a los animales rescatados y tienen aventuras inolvidables.',
-    href: '#Voluntarios',
-    imageUrl: '/crac-web/images/voluntariados.jpeg',
-  },
-  {
-    title: 'Hospital',
-    description: 'Sé parte de nuestro equipo médico veterinario: rescata y aprende.',
-    href: '#Voluntarios',
-    imageUrl: '/crac-web/images/hospital/hospital.jpeg',
-  },
-  {
-    title: 'Visítanos',
-    description: 'Conoce a los animales rescatados en un recorrido guiado por el santuario.',
-    href: '#Visitanos',
-    imageUrl: '/crac-web/images/parquer.jpeg',
-  },
-  {
-    title: 'Giras educativas',
-    description:
-      'Recorridos diseñados para escuelas y grupos, para aprender sobre conservación.',
-    href: '#Giras',
-    imageUrl: '/crac-web/images/galeria/volcan.jpeg',
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export default function TeamCardsSection() {
+  const { t } = useTranslation();
+
+  const sections = [
+    {
+      title: t('teamCards.quienesTitle'),
+      description: t('teamCards.quienesDesc'),
+      href: '#QuienesSomos',
+      imageUrl: '/crac-web/images/quienes.jpeg',
+    },
+    {
+      title: t('teamCards.voluntariadosTitle'),
+      description: t('teamCards.voluntariadosDesc'),
+      href: '#Voluntarios',
+      imageUrl: '/crac-web/images/voluntariados.jpeg',
+    },
+    {
+      title: t('teamCards.hospitalTitle'),
+      description: t('teamCards.hospitalDesc'),
+      href: '#Voluntarios',
+      imageUrl: '/crac-web/images/hospital/hospital.jpeg',
+    },
+    {
+      title: t('teamCards.visitanosTitle'),
+      description: t('teamCards.visitanosDesc'),
+      href: '#Visitanos',
+      imageUrl: '/crac-web/images/parquer.jpeg',
+    },
+    {
+      title: t('teamCards.girasTitle'),
+      description: t('teamCards.girasDesc'),
+      href: '#Giras',
+      imageUrl: '/crac-web/images/galeria/volcan.jpeg',
+    },
+  ];
+
   return (
     <section id="Equipo" className="mx-auto max-w-7xl bg-mist-50 px-6 py-24">
       <div className="grid grid-cols-1 gap-6">
@@ -62,7 +62,7 @@ export default function TeamCardsSection() {
               <h3 className="font-display text-3xl text-mist-50">{s.title}</h3>
               <p className="mt-1 max-w-md font-body text-sm text-mist-50/90">{s.description}</p>
               <span className="mt-4 inline-flex w-fit items-center gap-2 rounded-full bg-sloth-500 px-5 py-2 font-body text-sm font-medium text-mist-50 shadow-lg">
-                Conócenos →
+                {t('teamCards.cta')}
               </span>
             </div>
           </motion.a>

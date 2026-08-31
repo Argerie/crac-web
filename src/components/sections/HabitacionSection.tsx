@@ -1,30 +1,29 @@
 import { motion } from 'framer-motion';
-
-const cards = [
-  {
-    title: 'Habitación compartida',
-    price: '50$ / noche',
-    highlight: 'Comparte una habitación con personas de tus mismos intereses y hacé conexiones.',
-    description:
-      'Disfrutá de alojamiento compartido con tres comidas al día, limpieza diaria de la habitación y actividades inolvidables.',
-  },
-  {
-    title: 'Habitación privada',
-    price: '70$ / noche',
-    highlight: 'Mantené tu privacidad en una habitación con baño.',
-    description:
-      'Disfrutá del alojamiento privado con tres comidas al día, limpieza diaria de la habitación y actividades inolvidables.',
-  },
-  {
-    title: 'Habitación familiar',
-    price: '160$ / noche',
-    highlight: 'Alójate con tu familia.',
-    description:
-      'Disfrutá del alojamiento con tu familia con tres comidas al día, limpieza diaria de la habitación y actividades inolvidables.',
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export default function HabitacionSection() {
+  const { t } = useTranslation();
+  const cards = [
+    {
+      title: t('habitacion.compartidaTitle'),
+      price: t('habitacion.compartidaPrice'),
+      highlight: t('habitacion.compartidaHighlight'),
+      description: t('habitacion.compartidaDesc'),
+    },
+    {
+      title: t('habitacion.privadaTitle'),
+      price: t('habitacion.privadaPrice'),
+      highlight: t('habitacion.privadaHighlight'),
+      description: t('habitacion.privadaDesc'),
+    },
+    {
+      title: t('habitacion.familiarTitle'),
+      price: t('habitacion.familiarPrice'),
+      highlight: t('habitacion.familiarHighlight'),
+      description: t('habitacion.familiarDesc'),
+    },
+  ];
+
   return (
     <section className="bg-mist-50 px-6 py-20">
       <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
@@ -55,7 +54,7 @@ export default function HabitacionSection() {
                 href="#Visitanos"
                 className="rounded-full bg-sloth-500 px-8 py-3 font-body text-sm font-medium text-mist-50 shadow-lg transition-transform hover:scale-105"
               >
-                Comenzar
+                {t('habitacion.comenzar')}
               </a>
             </div>
           </motion.div>

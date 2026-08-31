@@ -1,0 +1,204 @@
+{
+  "nav": {
+    "quienesSomos": "Quiénes somos",
+    "voluntariado": "Voluntariado",
+    "hospital": "Hospital",
+    "giras": "Giras educativas",
+    "visitanos": "Visítanos",
+    "dona": "Dona",
+    "esEn": "ES / EN"
+  },
+  "hero": {
+    "title": "Costa Rica Animal Rescue Center",
+    "subtitle": "Ayúdanos a rescatar, proteger y conservar la vida silvestre.",
+    "voluntariados": "Voluntariados",
+    "visitanos": "Visítanos",
+    "heroImageAlt": "Perezoso rescatado en el Costa Rica Animal Rescue Center"
+  },
+  "teamCards": {
+    "quienesTitle": "Quiénes somos",
+    "quienesDesc": "Conoce la historia del centro de rescate de vida silvestre, nuestra misión, propósito y cómo puedes formar parte de esta historia.",
+    "voluntariadosTitle": "Voluntariados",
+    "voluntariadosDesc": "Nuestras personas voluntarias viven la experiencia de cuidar a los animales rescatados y tienen aventuras inolvidables.",
+    "hospitalTitle": "Hospital",
+    "hospitalDesc": "Sé parte de nuestro equipo médico veterinario: rescata y aprende.",
+    "visitanosTitle": "Visítanos",
+    "visitanosDesc": "Conoce a los animales rescatados en un recorrido guiado por el santuario.",
+    "girasTitle": "Giras educativas",
+    "girasDesc": "Recorridos diseñados para escuelas y grupos, para aprender sobre conservación.",
+    "cta": "Conócenos →"
+  },
+  "quienes": {
+    "titulo": "Quiénes somos",
+    "p1": "Somos un centro de rescate de vida silvestre y un santuario de animales rescatados del tráfico ilegal de especies, de accidentes causados por el ser humano y de quienes han sido víctimas de abuso.",
+    "p2": "Contamos con una clínica veterinaria equipada para recibir a los animales en peligro, con heridas graves o con riesgo de muerte.",
+    "p3": "Además, un santuario donde viven los animales que no pudieron ser reintegrados a la naturaleza, dado a que fueron sacados de su hábitat natural con apenas semanas de vida, porque requieren de un chequeo veterinario continuo, o sus heridas ya no permiten que sobreviva en la naturaleza.",
+    "p4": "En el rescate viven especies como el perezoso de dos dedos",
+    "p4Sci": "(Choloepus hoffmanni)",
+    "p4b": "siendo una de las especies más rescatadas dado al tráfico ilegal y los accidentes en tendidos eléctricos.",
+    "p5a": "Conocerás también al mono cariblanco",
+    "p5aSci": "(Cebus capucinus)",
+    "p5b": ", mono araña centroamericano",
+    "p5bSci": "(Ateles geoffroyi)",
+    "p5c": ", mono congo",
+    "p5cSci": "(Alouatta palliata)",
+    "p5d": ", guatusas, marmosetas, mapaches",
+    "p5dSci": "(Procyon lotor)",
+    "p5e": ", kinkajú",
+    "p5eSci": "(Potos flavus)",
+    "p5f": ", saínos",
+    "p5fSci": "(Pecari tajacu)",
+    "p5g": ", venados coliblanco",
+    "p5gSci": "(Odocoileus virginianus)",
+    "p5end": ".",
+    "p6a": "Diversidad de aves como la lapa roja",
+    "p6aSci": "(Ara macao)",
+    "p6b": ", lapa azul",
+    "p6bSci": "(Ara ararauna)",
+    "p6c": ", perico verde",
+    "p6cSci": "(Aratinga holochlora)",
+    "p6d": ", periquitos",
+    "p6dSci": "(Melopsittacus undulatus)",
+    "p6e": ", búho oropopo",
+    "p6eSci": "(Pulsatrix perspicillata)",
+    "p6end": ", entre muchas otras especies.",
+    "historiaTitle": "Nuestra historia",
+    "historiaP1": "En 2009, el centro de rescate fue fundado en la costa caribeña de Costa Rica, en Moín. Su primer rescate fue Buda, un animal salvado del tráfico ilegal de fauna silvestre justo antes de ser vendido como mascota.",
+    "historiaP2": "El centro, ubicado en Moín, también se dedicaba a patrullar las playas para proteger los nidos de una especie en peligro de extinción: la tortuga baula",
+    "historiaP2Sci": "(Dermochelys coriacea)",
+    "historiaP2end": ".",
+    "historiaP3": "Sin embargo, los recolectores ilegales de huevos no eran el único desafío. La construcción de un importante puerto en Moín amenazaba las actividades de rescate y conservación. Como acto de intimidación, el activista ambiental Jairo Mora Sandoval fue asesinado mientras defendía los nidos de las tortugas marinas.",
+    "historiaP4": "Debido a la creciente presión y a la pérdida de acceso a la propiedad original, el centro se vio obligado a trasladarse a San Miguel de Turrúcares. Allí, se les prestó generosamente una propiedad temporal para que los animales pudieran ser alojados mientras se buscaba una solución permanente.",
+    "historiaP5": "La propiedad original en Moín fue ocupada y, en 2016, después de vender dos propiedades personales, el propietario del centro de rescate pudo adquirir el terreno donde actualmente funciona el centro, una propiedad que todavía se está pagando por lo que buscamos personas voluntarias como vos, para que formés parte del cuidado y protección de nuestra vida silvestre."
+  },
+  "animals": {
+    "title": "Animales rescatados",
+    "subtitle": "Pasa el cursor sobre cada tarjeta para conocer su historia.",
+    "grumpy": {
+      "name": "Grumpy",
+      "species": "Perezoso",
+      "story": "Grumpy vino con la placenta aún enrollada en su cuerpo, vos podés ayudarnos a rehabilitarlo en el hospital."
+    },
+    "sharleen": {
+      "name": "Sharleen",
+      "species": "Mono congo",
+      "story": "Sharleen fue rescatada de la trata ilegal de animales."
+    },
+    "lola": {
+      "name": "Lola",
+      "species": "Mono cariblanco",
+      "story": "Lola sufrió maltrato físico y en el centro curamos sus heridas"
+    },
+    "gandy": {
+      "name": "Gandy",
+      "species": "Mono araña",
+      "story": "Le suministraban drogas para usarlo como diversión, hoy es el líder de la manada"
+    },
+    "diniel": {
+      "name": "Diniel",
+      "species": "Kinkajú",
+      "story": "Huérfano tras destrucción de su hábitat, rescatado desde bebé."
+    },
+    "toro": {
+      "name": "Toro",
+      "species": "Venado",
+      "story": "Decomisado por las autoridades después de que lo habían sacado de la naturaleza."
+    },
+    "status": {
+      "rehabilitating": "En rehabilitación",
+      "ready-to-release": "Lista para liberar",
+      "permanent-resident": "Residente permanente"
+    }
+  },
+  "volunteers": {
+    "title": "Voluntariados",
+    "imgAlt": "Voluntarios del Costa Rica Animal Rescue Center",
+    "p1": "Nuestras personas voluntarias son personas que han decidido donar parte importante de su tiempo y dedicación a nuestra causa, por lo que hemos creado un espacio seguro, divertido y que asegura la convivencia e intercambio de cultura.",
+    "p2": "Todos nuestros programas incluyen alimentación y hospedaje. Contamos con la infraestructura necesaria para que elijas lo mejor para tu bienestar y comodidad, la cual también garantiza que podás tener espacio para practicar las actividades que más te gustan, como yoga, lectura, explorar la naturaleza. ¿Qué más te imaginás haciendo?",
+    "p3": "La experiencia incluye conocer el pueblo y la posibilidad de participar en las actividades que tenemos planeadas para vos mientras te esperamos: fogatas, karaoke, paseos y mucho más."
+  },
+  "gallery": {
+    "title": "La vida en el centro",
+    "img1": "Actividades con voluntarios",
+    "img2": "Preparación de comida para los animales",
+    "img3": "Voluntarios del centro",
+    "img4": "Hospital veterinario del centro",
+    "img5": "Volcán de Costa Rica",
+    "img6": "Atención en el hospital veterinario",
+    "img7": "Voluntariados en acción"
+  },
+  "habitacion": {
+    "compartidaTitle": "Habitación compartida",
+    "compartidaPrice": "50$ / noche",
+    "compartidaHighlight": "Comparte una habitación con personas de tus mismos intereses y hacé conexiones.",
+    "compartidaDesc": "Disfrutá de alojamiento compartido con tres comidas al día, limpieza diaria de la habitación y actividades inolvidables.",
+    "privadaTitle": "Habitación privada",
+    "privadaPrice": "70$ / noche",
+    "privadaHighlight": "Mantené tu privacidad en una habitación con baño.",
+    "privadaDesc": "Disfrutá del alojamiento privado con tres comidas al día, limpieza diaria de la habitación y actividades inolvidables.",
+    "familiarTitle": "Habitación familiar",
+    "familiarPrice": "160$ / noche",
+    "familiarHighlight": "Alójate con tu familia.",
+    "familiarDesc": "Disfrutá del alojamiento con tu familia con tres comidas al día, limpieza diaria de la habitación y actividades inolvidables.",
+    "comenzar": "Comenzar"
+  },
+  "visitanos": {
+    "title": "Visítanos",
+    "p1": "Ven a conocer el santuario y a los animales rescatados que son residentes permanentes del centro. Podés venir con toda la familia; nuestros horarios de atención son de lunes a domingo de 8:00 am a 4:00 pm.",
+    "p2": "Nos encontramos en Cebadilla de Turrúcares, en la provincia de Alajuela. El recorrido tiene una duración de alrededor de una hora y siempre tendrás una guía capacitada dentro del rescate.",
+    "imgAlt": "Perezoso en el santuario"
+  },
+  "giras": {
+    "title": "Giras educativas",
+    "p1": "Recorridos diseñados para escuelas, colegios y grupos. Aprendé sobre la conservación de la vida silvestre y el trabajo del centro de rescate.",
+    "p2": "Una experiencia que combina educación ambiental, contacto con la naturaleza y momentos que quedan para siempre.",
+    "imgAlt": "Gira educativa en la naturaleza"
+  },
+  "form": {
+    "title": "Visítanos o sé voluntario",
+    "subtitle": "Cuéntanos qué te interesa y te contactamos.",
+    "subject": "Nuevo contacto desde la web CRARC",
+    "nombre": "Nombre",
+    "email": "Email",
+    "visitar": "Quiero visitar",
+    "voluntario": "Quiero ser voluntario",
+    "donar": "Quiero donar",
+    "enviar": "Enviar"
+  },
+  "donation": {
+    "title": "Dona ahora",
+    "subtitle": "Tu donación ayuda directamente en el cuidado de los animales rescatados.",
+    "donar": "Donar"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "q1": "¿Cuáles son los horarios de visita?",
+    "a1": "Abrimos todos los días de 8:00 a 16:00, incluyendo feriados.",
+    "q2": "¿Cómo llegamos al centro?",
+    "a2": "Podés encontrarnos como Costa Rica Animal Rescue Center, en Cebadilla de Turrúcares.",
+    "q3": "¿Cuánto cuesta la entrada?",
+    "a3": "Nacionales: adultos ₡6000, niñeces ₡4000. Extranjeros: adultos $20, niñeces $10.",
+    "q4": "¿Es apto para infancias?",
+    "a4": "Sí, tenemos recorridos guiados pensados para familias y grupos escolares."
+  },
+  "footer": {
+    "name": "CRARC",
+    "org": "Costa Rica Animal Rescue Center · Cebadilla, Turrúcares",
+    "horario": "Lun–Dom · 8:00 - 16:00",
+    "email": "volunteering@costaricaanimalrescuecenter.org",
+    "phone": "+506 85228125",
+    "siguenos": "Síguenos",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "copyright": "© 2026 Costa Rica Animal Rescue Center"
+  },
+  "mission": {
+    "img1": "Bebé de mono congo",
+    "img2": "Perezoso bebé arropado",
+    "img3": "Perezoso con los ojos cerrados",
+    "img4": "Perezoso del centro de rescate",
+    "img5": "Perezosos dándose besos",
+    "img6": "Tucán rescatado",
+    "img7": "Zorro bebé rescatado"
+  }
+}
