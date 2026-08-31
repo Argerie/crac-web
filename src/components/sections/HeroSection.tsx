@@ -10,7 +10,7 @@ export default function HeroSection() {
         className="absolute inset-0"
       >
         <img
-          src="/images/hero/perez-hero.png"
+          src="/crac-web/images/hero/perez-hero.png"
           alt="Perezoso rescatado en el Costa Rica Animal Rescue Center"
           className="h-full w-full object-cover"
         />
@@ -57,3 +57,4 @@ export default function HeroSection() {
     </section>
   );
 }
+

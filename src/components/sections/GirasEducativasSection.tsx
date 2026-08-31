@@ -9,7 +9,7 @@ export default function GirasEducativasSection() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6 }}
-          src="/images/galeria/volcan.jpeg"
+          src="/crac-web/images/galeria/volcan.jpeg"
           alt="Gira educativa en la naturaleza"
           className="h-96 w-full rounded-2xl object-cover shadow-lg"
         />
@@ -33,3 +33,4 @@ export default function GirasEducativasSection() {
     </section>
   );
 }
+

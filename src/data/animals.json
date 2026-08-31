@@ -6,7 +6,7 @@
     "rescueDate": "2025-09-14",
     "status": "rehabilitating",
     "story": "Grumpy vino con la placenta aún enrollada en su cuerpo, vos podés ayudarnos a rehabilitarlo en el hospital.",
-    "imageUrl": "/images/animals/grumpybebe.jpeg"
+    "imageUrl": "/crac-web/images/animals/grumpybebe.jpeg"
   },
   {
     "id": "tucan-02",
@@ -15,7 +15,7 @@
     "rescueDate": "2025-06-02",
     "status": "ready-to-release",
     "story": "Sharleen fue rescatada de la trata ilegal de animales.",
-    "imageUrl": "/images/animals/eyes.jpeg"
+    "imageUrl": "/crac-web/images/animals/eyes.jpeg"
   },
   {
     "id": "mono-03",
@@ -24,7 +24,7 @@
     "rescueDate": "2024-11-20",
     "status": "permanent-resident",
     "story": "Lola sufrió maltrato físico y en el centro curamos sus heridas",
-    "imageUrl": "/images/animals/lola.jpeg"
+    "imageUrl": "/crac-web/images/animals/lola.jpeg"
   },
   {
     "id": "lapa-04",
@@ -33,7 +33,7 @@
     "rescueDate": "2025-02-11",
     "status": "rehabilitating",
     "story": "Le suministraban drogas para usarlo como diversión, hoy es el líder de la manada",
-    "imageUrl": "/images/animals/ghandy.jpeg"
+    "imageUrl": "/crac-web/images/animals/ghandy.jpeg"
   },
   {
     "id": "kinkajou-05",
@@ -42,7 +42,7 @@
     "rescueDate": "2025-04-30",
     "status": "ready-to-release",
     "story": "Huérfano tras destrucción de su hábitat, rescatado desde bebé.",
-    "imageUrl": "/images/animals/daniel.jpeg"
+    "imageUrl": "/crac-web/images/animals/daniel.jpeg"
   },
   {
     "id": "iguana-06",
@@ -51,6 +51,7 @@
     "rescueDate": "2024-08-17",
     "status": "permanent-resident",
     "story": "Decomisado por las autoridades después de que lo habían sacado de la naturaleza.",
-    "imageUrl": "/images/animals/toro.jpeg"
+    "imageUrl": "/crac-web/images/animals/toro.jpeg"
   }
 ]
+

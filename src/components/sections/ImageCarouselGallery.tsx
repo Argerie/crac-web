@@ -1,11 +1,11 @@
 const media = [
-  { type: 'img', src: '/images/galeria/actividades-voluntarios.jpeg', alt: 'Actividades con voluntarios' },
-  { type: 'img', src: '/images/galeria/comida-voluntarios.jpeg', alt: 'Preparación de comida para los animales' },
-  { type: 'img', src: '/images/galeria/voluntas.jpeg', alt: 'Voluntarios del centro' },
-  { type: 'img', src: '/images/hospital/hospital.jpeg', alt: 'Hospital veterinario del centro' },
-  { type: 'img', src: '/images/galeria/volcan.jpeg', alt: 'Volcán de Costa Rica' },
-  { type: 'img', src: '/images/galeria/hospita.jpeg', alt: 'Atención en el hospital veterinario' },
-  { type: 'img', src: '/images/voluntariados.jpeg', alt: 'Voluntariados en acción' },
+  { type: 'img', src: '/crac-web/images/galeria/actividades-voluntarios.jpeg', alt: 'Actividades con voluntarios' },
+  { type: 'img', src: '/crac-web/images/galeria/comida-voluntarios.jpeg', alt: 'Preparación de comida para los animales' },
+  { type: 'img', src: '/crac-web/images/galeria/voluntas.jpeg', alt: 'Voluntarios del centro' },
+  { type: 'img', src: '/crac-web/images/hospital/hospital.jpeg', alt: 'Hospital veterinario del centro' },
+  { type: 'img', src: '/crac-web/images/galeria/volcan.jpeg', alt: 'Volcán de Costa Rica' },
+  { type: 'img', src: '/crac-web/images/galeria/hospita.jpeg', alt: 'Atención en el hospital veterinario' },
+  { type: 'img', src: '/crac-web/images/voluntariados.jpeg', alt: 'Voluntariados en acción' },
 ];
 
 export default function ImageCarouselGallery() {
@@ -41,3 +41,4 @@ export default function ImageCarouselGallery() {
     </section>
   );
 }
+

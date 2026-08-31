@@ -16,7 +16,7 @@ export default function Nav() {
       <nav className="fixed top-0 z-50 flex w-full items-center justify-between px-5 py-4">
         <a href="#" className="relative z-10 flex items-center">
           <img
-            src="/images/brand/logo.jpeg"
+            src="/crac-web/images/brand/logo.jpeg"
             alt="CRARC — Costa Rica Animal Rescue Center"
             className="h-11 w-auto rounded-lg shadow-md"
           />
@@ -95,3 +95,4 @@ export default function Nav() {
     </>
   );
 }
+

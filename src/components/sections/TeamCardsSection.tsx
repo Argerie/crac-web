@@ -6,33 +6,33 @@ const sections = [
     description:
       'Conoce la historia del centro de rescate de vida silvestre, nuestra misión, propósito y cómo puedes formar parte de esta historia.',
     href: '#QuienesSomos',
-    imageUrl: '/images/quienes.jpeg',
+    imageUrl: '/crac-web/images/quienes.jpeg',
   },
   {
     title: 'Voluntariados',
     description:
       'Nuestras personas voluntarias viven la experiencia de cuidar a los animales rescatados y tienen aventuras inolvidables.',
     href: '#Voluntarios',
-    imageUrl: '/images/voluntariados.jpeg',
+    imageUrl: '/crac-web/images/voluntariados.jpeg',
   },
   {
     title: 'Hospital',
     description: 'Sé parte de nuestro equipo médico veterinario: rescata y aprende.',
     href: '#Voluntarios',
-    imageUrl: '/images/hospital/hospital.jpeg',
+    imageUrl: '/crac-web/images/hospital/hospital.jpeg',
   },
   {
     title: 'Visítanos',
     description: 'Conoce a los animales rescatados en un recorrido guiado por el santuario.',
     href: '#Visitanos',
-    imageUrl: '/images/parquer.jpeg',
+    imageUrl: '/crac-web/images/parquer.jpeg',
   },
   {
     title: 'Giras educativas',
     description:
       'Recorridos diseñados para escuelas y grupos, para aprender sobre conservación.',
     href: '#Giras',
-    imageUrl: '/images/galeria/volcan.jpeg',
+    imageUrl: '/crac-web/images/galeria/volcan.jpeg',
   },
 ];
 
@@ -71,3 +71,4 @@ export default function TeamCardsSection() {
     </section>
   );
 }
+

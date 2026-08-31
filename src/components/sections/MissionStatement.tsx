@@ -1,11 +1,11 @@
 const media = [
-  { type: 'video', src: '/images/galeria/mono-congo-bebe.mp4', alt: 'Bebé de mono congo' },
-  { type: 'img', src: '/images/galeria/perezoso-bebe-cobija.jpeg', alt: 'Perezoso bebé arropado' },
-  { type: 'img', src: '/images/galeria/perezoso-ojos-cerrados.jpeg', alt: 'Perezoso con los ojos cerrados' },
-  { type: 'img', src: '/images/galeria/perezoso-principal.jpeg', alt: 'Perezoso del centro de rescate' },
-  { type: 'img', src: '/images/galeria/perezosos-besos.jpeg', alt: 'Perezosos dándose besos' },
-  { type: 'img', src: '/images/galeria/tucan.jpeg', alt: 'Tucán rescatado' },
-  { type: 'img', src: '/images/galeria/zorro-bebe.jpeg', alt: 'Zorro bebé rescatado' },
+  { type: 'video', src: '/crac-web/images/galeria/mono-congo-bebe.mp4', alt: 'Bebé de mono congo' },
+  { type: 'img', src: '/crac-web/images/galeria/perezoso-bebe-cobija.jpeg', alt: 'Perezoso bebé arropado' },
+  { type: 'img', src: '/crac-web/images/galeria/perezoso-ojos-cerrados.jpeg', alt: 'Perezoso con los ojos cerrados' },
+  { type: 'img', src: '/crac-web/images/galeria/perezoso-principal.jpeg', alt: 'Perezoso del centro de rescate' },
+  { type: 'img', src: '/crac-web/images/galeria/perezosos-besos.jpeg', alt: 'Perezosos dándose besos' },
+  { type: 'img', src: '/crac-web/images/galeria/tucan.jpeg', alt: 'Tucán rescatado' },
+  { type: 'img', src: '/crac-web/images/galeria/zorro-bebe.jpeg', alt: 'Zorro bebé rescatado' },
 ];
 
 export default function MissionStatement() {
@@ -38,3 +38,4 @@ export default function MissionStatement() {
     </section>
   );
 }
+

@@ -27,7 +27,7 @@ export default function VisitanosSection() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          src="/images/iris.jpeg"
+          src="/crac-web/images/iris.jpeg"
           alt="Perezoso en el santuario"
           className="h-96 w-full rounded-2xl object-cover shadow-lg"
         />
@@ -35,3 +35,4 @@ export default function VisitanosSection() {
     </section>
   );
 }
+
