@@ -92,7 +92,7 @@
     "gandy": {
       "name": "Gandy",
       "species": "Mono araña",
-      "story": "Le suministraban drogas para usarlo como diversión, hoy es el líder de la manada"
+      "story": "Gandy estaba amarrado en un bar para entretener a los visitantes"
     },
     "diniel": {
       "name": "Diniel",
@@ -100,7 +100,7 @@
       "story": "Huérfano tras destrucción de su hábitat, rescatado desde bebé."
     },
     "toro": {
-      "name": "Toro",
+      "name": "bamboo",
       "species": "Venado",
       "story": "Decomisado por las autoridades después de que lo habían sacado de la naturaleza."
     },

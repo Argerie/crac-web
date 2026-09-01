@@ -53,30 +53,30 @@ export default function HabitacionSection() {
               {card.description}
             </p>
             {card.id === 'compartida' && (
-              <div className="mt-6 flex gap-3">
+              <div className="mt-6 grid shrink-0 grid-cols-2 gap-3">
                 <img
                   src="/crac-web/images/hostel.jpeg"
                   alt="Habitación compartida"
-                  className="h-28 flex-1 rounded-lg object-cover"
+                  className="h-40 w-full rounded-lg object-cover"
                 />
                 <img
                   src="/crac-web/images/host.jpeg"
                   alt="Habitación compartida"
-                  className="h-28 flex-1 rounded-lg object-cover"
+                  className="h-40 w-full rounded-lg object-cover"
                 />
               </div>
             )}
             {card.id === 'privada' && (
-              <div className="mt-6 flex gap-3">
+              <div className="mt-6 grid shrink-0 grid-cols-2 gap-3">
                 <img
                   src="/crac-web/images/sola.jpeg"
                   alt="Habitación privada"
-                  className="h-28 flex-1 rounded-lg object-cover"
+                  className="h-40 w-full rounded-lg object-cover"
                 />
                 <img
                   src="/crac-web/images/solab.jpeg"
                   alt="Habitación privada"
-                  className="h-28 flex-1 rounded-lg object-cover"
+                  className="h-40 w-full rounded-lg object-cover"
                 />
               </div>
             )}
