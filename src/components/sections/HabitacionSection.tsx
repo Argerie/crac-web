@@ -80,6 +80,15 @@ export default function HabitacionSection() {
                 />
               </div>
             )}
+            {card.id === 'familiar' && (
+              <div className="mt-6 shrink-0">
+                <img
+                  src="/crac-web/images/familia.jpeg"
+                  alt="Habitación familiar"
+                  className="h-40 w-full rounded-lg object-cover"
+                />
+              </div>
+            )}
             <div className="mt-auto pt-8 flex justify-center">
               <a
                 href="#Visitanos"
