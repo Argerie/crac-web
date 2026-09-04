@@ -11,7 +11,7 @@ export default function Nav() {
     { label: t('nav.voluntariado'), href: '#Voluntarios' },
     { label: t('nav.hospital'), href: '#Hospital' },
     { label: t('nav.giras'), href: '#Giras' },
-    { label: t('nav.visitanos'), href: '#Visitanos' },
+    { label: t('nav.visitanos'), href: '#VisitForm' },
   ];
 
   const changeLang = (lang: string) => {

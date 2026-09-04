@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 export default function VisitFormSection() {
   const { t } = useTranslation();
   return (
-    <section className="bg-mist-50 px-6 pb-24">
+    <section id="VisitForm" className="bg-mist-50 px-6 pb-24">
       <div className="mx-auto max-w-2xl rounded-2xl bg-river-200 p-8 md:p-10">
         <h2 className="font-display text-2xl text-jungle-900">{t('visitForm.title')}</h2>
         <form
