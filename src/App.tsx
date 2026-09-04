@@ -30,9 +30,11 @@ function App() {
       <VisitanosSection />
       <VisitFormSection />
       <GirasEducativasSection />
-      <section id="VoluntariadoForm" className="mx-auto max-w-5xl grid grid-cols-1 gap-6 px-6 py-12 md:grid-cols-2 bg-mist-50">
+      <section id="VoluntariadoForm" className="mx-auto max-w-5xl flex flex-col items-center px-6 py-12 bg-mist-50">
         <VolunteerFormSection />
-        <DonationWidget />
+        <div className="mt-6 flex justify-center">
+          <DonationWidget />
+        </div>
       </section>
       <FAQSection />
       <Footer />
