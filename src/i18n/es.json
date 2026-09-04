@@ -162,14 +162,22 @@
     "imgAlt": "Gira educativa en la naturaleza"
   },
   "form": {
-    "title": "Visítanos o sé voluntario",
+    "title": "Hacé voluntariado",
     "subtitle": "Cuéntanos qué te interesa y te contactamos.",
     "subject": "Nuevo contacto desde la web CRARC",
     "nombre": "Nombre",
     "email": "Email",
+    "whatsapp": "Número de WhatsApp",
+    "paisCode": "Código de país",
     "visitar": "Quiero visitar",
     "voluntario": "Quiero ser voluntario",
     "donar": "Quiero donar",
+    "dieta": "Dieta",
+    "dietaRegular": "Dieta regular",
+    "dietaVegetariana": "Dieta vegetariana",
+    "dietaVegana": "Dieta vegana",
+    "dietaLibreGluten": "Dieta libre de gluten",
+    "alergias": "Alergias",
     "enviar": "Enviar"
   },
   "donation": {

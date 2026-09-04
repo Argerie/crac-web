@@ -162,14 +162,22 @@
     "imgAlt": "Educational tour in nature"
   },
   "form": {
-    "title": "Visit us or volunteer",
+    "title": "Volunteer now",
     "subtitle": "Tell us what interests you and we will contact you.",
     "subject": "New contact from the CRARC website",
     "nombre": "Name",
     "email": "Email",
+    "whatsapp": "WhatsApp number",
+    "paisCode": "Country code",
     "visitar": "I want to visit",
     "voluntario": "I want to volunteer",
     "donar": "I want to donate",
+    "dieta": "Diet",
+    "dietaRegular": "Regular diet",
+    "dietaVegetariana": "Vegetarian diet",
+    "dietaVegana": "Vegan diet",
+    "dietaLibreGluten": "Gluten-free diet",
+    "alergias": "Allergies",
     "enviar": "Send"
   },
   "donation": {
