@@ -109,6 +109,25 @@ export default function Nav() {
                 {t('nav.dona')}
               </button>
             </div>
+            <div className="mt-4 border-t border-mist-50/20 pt-5">
+              <p className="font-utility text-sm uppercase tracking-wider text-mist-50/60">
+                {t('nav.datos')}
+              </p>
+              <p className="mt-3 font-body text-sm text-mist-50">{t('footer.org')}</p>
+              <p className="mt-1 font-body text-sm text-mist-50">{t('footer.horario')}</p>
+              <a
+                href={`mailto:${t('footer.email')}`}
+                className="mt-1 block font-body text-sm text-macaw-300 hover:underline"
+              >
+                {t('footer.email')}
+              </a>
+              <a
+                href={`tel:${t('footer.phone').replace(/\s/g, '')}`}
+                className="mt-1 block font-body text-sm text-macaw-300 hover:underline"
+              >
+                {t('footer.phone')}
+              </a>
+            </div>
           </div>
         </div>
       </nav>
