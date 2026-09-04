@@ -162,7 +162,7 @@
     "imgAlt": "Educational tour in nature"
   },
   "form": {
-    "title": "Volunteer now",
+    "title": "Volunteer or come to the educational tour",
     "subtitle": "Tell us what interests you and we will contact you.",
     "subject": "New contact from the CRARC website",
     "nombre": "Name",
@@ -178,6 +178,7 @@
     "dietaVegana": "Vegan diet",
     "dietaLibreGluten": "Gluten-free diet",
     "alergias": "Allergies",
+    "personas": "How many people are you?",
     "enviar": "Send"
   },
   "donation": {

@@ -162,7 +162,7 @@
     "imgAlt": "Gira educativa en la naturaleza"
   },
   "form": {
-    "title": "Hacé voluntariado",
+    "title": "Hacé voluntariado o vení a la gira educativa",
     "subtitle": "Cuéntanos qué te interesa y te contactamos.",
     "subject": "Nuevo contacto desde la web CRARC",
     "nombre": "Nombre",
@@ -178,6 +178,7 @@
     "dietaVegana": "Dieta vegana",
     "dietaLibreGluten": "Dieta libre de gluten",
     "alergias": "Alergias",
+    "personas": "Cuántas personas son",
     "enviar": "Enviar"
   },
   "donation": {
