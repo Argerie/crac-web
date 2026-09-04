@@ -145,14 +145,14 @@ export default function Nav() {
               >
                 EN
               </button>
-              <button
+<button
                 onClick={() => {
                   setOpen(false);
-                  document.getElementById('Dona')?.scrollIntoView({ behavior: 'smooth' });
+                  window.open('https://www.amazon.com/hz/wishlist/ls/22MUJKW4EQUV8?ref_=wl_share', '_blank', 'noopener,noreferrer');
                 }}
                 className="rounded-full bg-sloth-500 px-6 py-2.5 font-body text-sm font-medium text-mist-50 ring-2 ring-mist-50/70 transition-transform hover:scale-105"
               >
-{t('nav.dona')}
+                {t('nav.dona')}
               </button>
             </div>
           </div>
