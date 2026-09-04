@@ -169,7 +169,7 @@
     "subject": "New contact from the CRARC website",
     "nombre": "Name",
     "email": "Email",
-    "whatsapp": "WhatsApp number",
+    "whatsapp": "WhatsApp number with country code",
     "paisCode": "Country code",
     "visitar": "I want to visit",
     "voluntario": "I want to volunteer",

@@ -169,7 +169,7 @@
     "subject": "Nuevo contacto desde la web CRARC",
     "nombre": "Nombre",
     "email": "Email",
-    "whatsapp": "Número de WhatsApp",
+    "whatsapp": "Número de WhatsApp con código de país",
     "paisCode": "Código de país",
     "visitar": "Quiero visitar",
     "voluntario": "Quiero ser voluntario",
