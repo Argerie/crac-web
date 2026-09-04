@@ -144,6 +144,15 @@ export default function Nav() {
                   </svg>
                   WhatsApp +506 85228125
                 </a>
+                <a
+                  href={`mailto:${t('footer.email')}`}
+                  className="mt-3 flex items-center gap-3 font-body text-sm text-macaw-300 hover:underline"
+                >
+                  <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M3 4a2 2 0 00-2 2v1.5l7.4 4.4a2 2 0 002.2 0L18 7.5V6a2 2 0 00-2-2H3zm-2 6.9V14a2 2 0 002 2h14a2 2 0 002-2v-3.1l-6.1 3.65a4 4 0 01-4.4 0L1 10.9z" />
+                  </svg>
+                  Correo: {t('footer.email')}
+                </a>
               </div>
             )}
           </div>
