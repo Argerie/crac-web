@@ -9,6 +9,7 @@ import VolunteersSection from './components/sections/VolunteersSection';
 import HospitalSection from './components/sections/HospitalSection';
 import HabitacionSection from './components/sections/HabitacionSection';
 import VisitanosSection from './components/sections/VisitanosSection';
+import VisitFormSection from './components/sections/VisitFormSection';
 import GirasEducativasSection from './components/sections/GirasEducativasSection';
 import VolunteerFormSection from './components/sections/VolunteerFormSection';
 import DonationWidget from './components/sections/DonationWidget';
@@ -27,6 +28,7 @@ function App() {
       <ImageCarouselGallery />
       <HabitacionSection />
       <VisitanosSection />
+      <VisitFormSection />
       <GirasEducativasSection />
       <section className="mx-auto max-w-5xl grid grid-cols-1 gap-6 px-6 py-12 md:grid-cols-2 bg-mist-50">
         <VolunteerFormSection />

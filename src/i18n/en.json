@@ -186,6 +186,13 @@
     "subtitle": "Every purchase you make on Amazon directly helps care for the rescued animals.",
     "donar": "Donate on Amazon"
   },
+  "visitForm": {
+    "title": "Book your visit",
+    "nombre": "Name",
+    "correo": "Email",
+    "personas": "Number of people",
+    "enviar": "Send"
+  },
   "faq": {
     "title": "Frequently asked questions",
     "q1": "What are the visiting hours?",

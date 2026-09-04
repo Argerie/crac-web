@@ -186,6 +186,13 @@
     "subtitle": "Cada compra que hagas en Amazon ayuda directamente al cuidado de los animales rescatados.",
     "donar": "Donar en Amazon"
   },
+  "visitForm": {
+    "title": "Reservá tu visita",
+    "nombre": "Nombre",
+    "correo": "Correo",
+    "personas": "Cantidad de personas",
+    "enviar": "Enviar"
+  },
   "faq": {
     "title": "Preguntas frecuentes",
     "q1": "¿Cuáles son los horarios de visita?",
