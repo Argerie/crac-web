@@ -8,7 +8,7 @@ export default function Nav() {
   const links = [
     { label: t('nav.quienesSomos'), href: '#QuienesSomos' },
     { label: t('nav.voluntariado'), href: '#Voluntarios' },
-    { label: t('nav.hospital'), href: '#Voluntarios' },
+    { label: t('nav.hospital'), href: '#Hospital' },
     { label: t('nav.giras'), href: '#Giras' },
     { label: t('nav.visitanos'), href: '#Visitanos' },
   ];

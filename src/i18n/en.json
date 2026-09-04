@@ -117,6 +117,13 @@
     "p2": "All our programs include meals and lodging. We have the necessary infrastructure for you to choose what is best for your well-being and comfort, which also guarantees you have space to practice the activities you enjoy most, such as yoga, reading, and exploring nature. What else can you imagine doing?",
     "p3": "The experience includes getting to know the town and the chance to take part in the activities we have planned for you while we wait for you: bonfires, karaoke, tours and much more."
   },
+  "hospital": {
+    "title": "Hospital",
+    "p1": "To rehabilitate wildlife, our volunteers are crucial. They heal wounds, handle hospital emergencies, take care of the demanding feeding of baby animals, and participate in surgeries and other medical interventions.",
+    "p2": "Our main purpose is to rehabilitate species, many of them endangered, and return them to the wild — that is where our true purpose lies.",
+    "p3": "If you are a veterinary medicine or nursing student, or you are discovering your calling, this is the ideal place for you.",
+    "imgAlt": "Veterinary hospital at the center"
+  },
   "gallery": {
     "title": "Life at the center",
     "img1": "Activities with volunteers",
@@ -136,10 +143,10 @@
     "privadaPrice": "$70 / night",
     "privadaHighlight": "Keep your privacy in a room with a private bathroom.",
     "privadaDesc": "Enjoy private lodging with three meals a day, daily room cleaning and unforgettable activities.",
-    "familiarTitle": "Family room",
+    "familiarTitle": "Hotel room",
     "familiarPrice": "$160 / night",
-    "familiarHighlight": "Stay with your family.",
-    "familiarDesc": "Enjoy lodging with your family with three meals a day, daily room cleaning and unforgettable activities.",
+    "familiarHighlight": "Stay at the village hotel.",
+    "familiarDesc": "Enjoy accommodation in the village; we take care of round-trip transportation to the rescue center.",
     "comenzar": "Start"
   },
   "visitanos": {
@@ -166,9 +173,9 @@
     "enviar": "Send"
   },
   "donation": {
-    "title": "Donate now",
-    "subtitle": "Your donation directly helps care for the rescued animals.",
-    "donar": "Donate"
+    "title": "Donate on Amazon",
+    "subtitle": "Every purchase you make on Amazon directly helps care for the rescued animals.",
+    "donar": "Donate on Amazon"
   },
   "faq": {
     "title": "Frequently asked questions",

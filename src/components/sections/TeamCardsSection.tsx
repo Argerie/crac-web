@@ -20,7 +20,7 @@ export default function TeamCardsSection() {
     {
       title: t('teamCards.hospitalTitle'),
       description: t('teamCards.hospitalDesc'),
-      href: '#Voluntarios',
+      href: '#Hospital',
       imageUrl: '/crac-web/images/hospital/hospital.jpeg',
     },
     {

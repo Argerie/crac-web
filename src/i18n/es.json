@@ -117,6 +117,13 @@
     "p2": "Todos nuestros programas incluyen alimentación y hospedaje. Contamos con la infraestructura necesaria para que elijas lo mejor para tu bienestar y comodidad, la cual también garantiza que podás tener espacio para practicar las actividades que más te gustan, como yoga, lectura, explorar la naturaleza. ¿Qué más te imaginás haciendo?",
     "p3": "La experiencia incluye conocer el pueblo y la posibilidad de participar en las actividades que tenemos planeadas para vos mientras te esperamos: fogatas, karaoke, paseos y mucho más."
   },
+  "hospital": {
+    "title": "Hospital",
+    "p1": "Para rehabilitar la vida silvestre, nuestras personas voluntarias son cruciales. Curan heridas, atienden las emergencias del hospital, se encargan de la exigente alimentación de los animales bebés, participan en cirugías y otras intervenciones médicas.",
+    "p2": "Nuestro principal propósito es rehabilitar especies, muchas en peligro de extinción y regresarlas a la naturaleza, es ahí donde reside nuestro principal propósito.",
+    "p3": "Si sos estudiante de medicina o enfermería veterinaria, o estás descubriendo tu vocación este es el lugar ideal para vos.",
+    "imgAlt": "Hospital veterinario del centro"
+  },
   "gallery": {
     "title": "La vida en el centro",
     "img1": "Actividades con voluntarios",
@@ -136,10 +143,10 @@
     "privadaPrice": "70$ / noche",
     "privadaHighlight": "Mantené tu privacidad en una habitación con baño.",
     "privadaDesc": "Disfrutá del alojamiento privado con tres comidas al día, limpieza diaria de la habitación y actividades inolvidables.",
-    "familiarTitle": "Habitación familiar",
+    "familiarTitle": "Habitación hotel",
     "familiarPrice": "160$ / noche",
-    "familiarHighlight": "Alójate con tu familia.",
-    "familiarDesc": "Disfrutá del alojamiento con tu familia con tres comidas al día, limpieza diaria de la habitación y actividades inolvidables.",
+    "familiarHighlight": "Alójate en el hotel del pueblo.",
+    "familiarDesc": "Disfrutá del alojamiento en el pueblo, nos encargamos del transporte de ida y vuelta al centro de rescate.",
     "comenzar": "Comenzar"
   },
   "visitanos": {
@@ -166,9 +173,9 @@
     "enviar": "Enviar"
   },
   "donation": {
-    "title": "Dona ahora",
-    "subtitle": "Tu donación ayuda directamente en el cuidado de los animales rescatados.",
-    "donar": "Donar"
+    "title": "Donar en Amazon",
+    "subtitle": "Cada compra que hagas en Amazon ayuda directamente al cuidado de los animales rescatados.",
+    "donar": "Donar en Amazon"
   },
   "faq": {
     "title": "Preguntas frecuentes",

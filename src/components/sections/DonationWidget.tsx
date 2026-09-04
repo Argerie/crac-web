@@ -10,7 +10,7 @@ export default function DonationWidget() {
       </p>
 
       <a
-        href="https://www.paypal.com/myaccount/transfer/homepage/preview"
+        href="https://www.amazon.com/hz/wishlist/ls/22MUJKW4EQUV8?ref_=wl_share"
         target="_blank"
         rel="noopener noreferrer"
         className="block w-full max-w-xs rounded-full bg-sloth-500 py-3 text-center font-body font-medium text-mist-50 transition-transform hover:scale-105"

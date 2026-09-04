@@ -6,6 +6,7 @@ import TeamCardsSection from './components/sections/TeamCardsSection';
 import ImageCarouselGallery from './components/sections/ImageCarouselGallery';
 import AnimalProfiles from './components/sections/AnimalProfiles';
 import VolunteersSection from './components/sections/VolunteersSection';
+import HospitalSection from './components/sections/HospitalSection';
 import HabitacionSection from './components/sections/HabitacionSection';
 import VisitanosSection from './components/sections/VisitanosSection';
 import GirasEducativasSection from './components/sections/GirasEducativasSection';
@@ -22,6 +23,7 @@ function App() {
       <QuienesSomosSection />
       <AnimalProfiles />
       <VolunteersSection />
+      <HospitalSection />
       <ImageCarouselGallery />
       <HabitacionSection />
       <VisitanosSection />
