@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 export default function Nav() {
   const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
+  const [contactOpen, setContactOpen] = useState(false);
 
   const links = [
     { label: t('nav.quienesSomos'), href: '#QuienesSomos' },
@@ -109,25 +110,42 @@ export default function Nav() {
                 {t('nav.dona')}
               </button>
             </div>
-            <div className="mt-4 border-t border-mist-50/20 pt-5">
-              <p className="font-utility text-sm uppercase tracking-wider text-mist-50/60">
-                {t('nav.datos')}
-              </p>
-              <p className="mt-3 font-body text-sm text-mist-50">{t('footer.org')}</p>
-              <p className="mt-1 font-body text-sm text-mist-50">{t('footer.horario')}</p>
-              <a
-                href={`mailto:${t('footer.email')}`}
-                className="mt-1 block font-body text-sm text-macaw-300 hover:underline"
+            <div className="mt-4 flex items-center justify-between border-t border-mist-50/20 pt-5">
+              <button
+                onClick={() => setContactOpen((v) => !v)}
+                className="flex items-center gap-3 font-utility text-lg text-mist-50 transition-colors hover:text-jungle-900"
               >
-                {t('footer.email')}
-              </a>
-              <a
-                href={`tel:${t('footer.phone').replace(/\s/g, '')}`}
-                className="mt-1 block font-body text-sm text-macaw-300 hover:underline"
-              >
-                {t('footer.phone')}
-              </a>
+                {t('nav.contactanos')}
+                <svg
+                  className={`h-4 w-4 transition-transform duration-300 ${
+                    contactOpen ? 'rotate-180' : ''
+                  }`}
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.06l3.71-3.83a.75.75 0 111.08 1.04l-4.25 4.38a.75.75 0 01-1.08 0L5.21 8.27a.75.75 0 01.02-1.06z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
             </div>
+            {contactOpen && (
+              <div className="overflow-hidden py-2">
+                <a
+                  href={`https://wa.me/${t('footer.phone').replace(/\s/g, '')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 font-body text-sm text-macaw-300 hover:underline"
+                >
+                  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12c0 1.82.48 3.54 1.34 5.02L2 22l5.08-1.32A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm4.63 13.71c-.24.68-.99 1.12-1.68 1.24-.39.07-.89.09-1.72-.1-1.02-.3-2.09-.97-3.16-2.17-.77-.86-1.54-1.91-2.11-3.02-.53-1.06-.69-1.93-.71-2.5-.02-.58.28-1.05.57-1.36.14-.15.32-.23.52-.23h.4c.14 0 .33-.02.5.12.21.35.6 1.39.64 1.48.04.09.07.19.01.3-.06.12-.1.2-.19.31l-.3.35c-.1.1-.2.19-.08.37.12.18.56.93 1.22 1.52.84.76 1.55 1 1.79 1.12.24.12.38.1.53-.06.14-.15.6-.69.76-.93.16-.24.32-.2.53-.12.22.07 1.39.66 1.63.78.24.12.4.18.45.28.06.1.06.61-.18 1.3z" />
+                  </svg>
+                  WhatsApp +506 85228125
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </nav>
