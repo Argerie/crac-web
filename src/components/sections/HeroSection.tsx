@@ -50,7 +50,7 @@ export default function HeroSection() {
           </a>
           <a
             href="#Visitanos"
-            className="rounded-full border-2 border-mist-50 px-7 py-3 text-center font-body font-medium text-mist-50"
+            className="rounded-full bg-sloth-500 px-7 py-3 text-center font-body font-medium text-mist-50 shadow-lg"
           >
             {t('hero.visitanos')}
           </a>

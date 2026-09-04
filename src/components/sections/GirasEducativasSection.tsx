@@ -30,7 +30,7 @@ export default function GirasEducativasSection() {
           </p>
           <a
             href="#Visitanos"
-            className="mt-8 inline-block rounded-full bg-toucan-400 px-8 py-3 font-body text-sm font-medium text-mist-50 shadow-lg transition-transform hover:scale-105"
+            className="mt-8 inline-block rounded-full bg-sloth-500 px-8 py-3 font-body text-sm font-medium text-mist-50 shadow-lg transition-transform hover:scale-105"
           >
             {t('nav.visitanos')}
           </a>

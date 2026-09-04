@@ -38,7 +38,7 @@ export default function VisitFormSection() {
           />
           <button
             type="submit"
-            className="mt-2 rounded-full bg-toucan-400 px-6 py-3 font-body font-medium text-mist-50 transition-transform hover:scale-105"
+            className="mt-2 rounded-full bg-sloth-500 px-6 py-3 font-body font-medium text-mist-50 transition-transform hover:scale-105"
           >
             {t('visitForm.enviar')}
           </button>
