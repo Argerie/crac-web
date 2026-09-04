@@ -28,6 +28,12 @@ export default function GirasEducativasSection() {
           <p className="mt-3 font-body text-jungle-900/70">
             {t('giras.p2')}
           </p>
+          <a
+            href="#Visitanos"
+            className="mt-8 inline-block rounded-full bg-toucan-400 px-8 py-3 font-body text-sm font-medium text-mist-50 shadow-lg transition-transform hover:scale-105"
+          >
+            {t('nav.visitanos')}
+          </a>
         </motion.div>
       </div>
     </section>
