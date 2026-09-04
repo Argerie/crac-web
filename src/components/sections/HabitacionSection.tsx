@@ -91,7 +91,7 @@ export default function HabitacionSection() {
             )}
             <div className="mt-auto pt-8 flex justify-center">
               <a
-                href="#Visitanos"
+                href="#VoluntariadoForm"
                 className="rounded-full bg-sloth-500 px-8 py-3 font-body text-sm font-medium text-mist-50 shadow-lg transition-transform hover:scale-105"
               >
                 {t('habitacion.comenzar')}
