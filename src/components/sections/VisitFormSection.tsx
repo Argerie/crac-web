@@ -7,7 +7,7 @@ export default function VisitFormSection() {
       <div className="mx-auto max-w-2xl rounded-2xl bg-river-200 p-8 md:p-10">
         <h2 className="font-display text-2xl text-jungle-900">{t('visitForm.title')}</h2>
         <form
-          action="https://formsubmit.co/volunteering@costaricaanimalrescuecenter.org"
+          action="https://formsubmit.co/volunteering@costaricaanimalrescuecenter.com"
           method="POST"
           className="mt-6 flex flex-col gap-4"
         >
